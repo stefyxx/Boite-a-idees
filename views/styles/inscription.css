@@ -1,0 +1,63 @@
+.formInscription{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+     background: #d8d3d8; 
+    text-align: center;
+    border-radius: 10px;
+    border: 0.10px solid #8c8c8db4;
+}
+#mon-select{
+ background-color: #fbfbfb;  
+ color: #4B5760; 
+ padding: 10px;
+ border: 0;
+ border-radius:40px;
+ text-align: center;
+}
+.formInscription input[type = "email"],.formInscription input[type ="password"]{
+    border: 0;
+    line-height: 2.5;
+    font-size: 14px;
+    background: #ffffff;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid #7d7e80;
+    padding: 14px 20px; 
+    width: 250px;
+    outline: none;
+    color: #4B5760;
+    border-radius: 40px;
+    transition: 0.25s;
+  }
+  .formInscription input[type = "email"]:focus, .formInscription input[type ="password"]:focus{
+    width: 280px;
+    border-color: #959596;
+  }
+  .formInscription button[type = "submit"]{
+  border:0;
+  line-height: 1.5;
+  display: block;
+  margin:40px auto;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 2px;
+  background-color: #4B5760;
+  padding: 12px 80px;
+  outline: none;
+  color: #ffffff;
+  border-radius: 40px;
+  transition: 0.25s;
+  /* cursor: pointer; */
+  font-size: 24px;
+  overflow: hidden;
+  }
+  
+  .formInscription button:hover {
+    background:#DF0059 ;
+    box-shadow: 0 0 20px 10px hsla(320, 2%, 37%, 0.5);
+  }
