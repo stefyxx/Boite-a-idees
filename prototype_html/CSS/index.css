@@ -1,0 +1,27 @@
+h1 {
+    font-size: 65px;
+    text-align: center;
+    background-color:#DF0059 ;
+    color: #fff;
+    height: 90px;
+
+}
+
+h3 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.boite {
+    text-align: justify;
+    background-color: #4b5760;
+    margin: 30px 300px 150px 300px ;
+    height: 300px;
+    line-height: 30px;
+}
+.boite p {
+    font-size: 20px;
+    padding: 50px 20px 50px 20px;
+    
+}
