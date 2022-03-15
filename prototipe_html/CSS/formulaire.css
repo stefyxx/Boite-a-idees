@@ -1,0 +1,62 @@
+h3 {
+    text-align: center;
+    font-size: 45px;
+}
+form {
+    margin-bottom: 150px;
+    text-align: center;
+
+}
+
+.questions {
+    float: left;
+    justify-content: space-evenly;
+    padding-right: 50px;
+    line-height: 45px;
+    padding-top: 50px;
+    text-align: left;
+    padding-bottom: 50px;
+}
+legend i {
+    font-size: 30px;
+    padding-right: 20px;
+
+}
+.answers {
+    float:right;
+    line-height: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.emojis {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.emojis i {
+    padding: 0 20px 0 5px;
+}
+
+
+.fa-grin-stars{
+    color:rgb(5, 251, 5);
+    font-size: 35px;
+}
+.fa-laugh-beam {
+    color:rgb(107, 194, 9);
+    font-size: 35px;
+}
+.fa-meh-blank {
+    color:rgb(227, 230, 61);
+    font-size: 35px;
+}
+.fa-dizzy {
+    color:rgb(255, 136, 0);
+    font-size: 35px;
+}
+.fa-angry {
+    color:rgb(175, 21, 21);
+    font-size: 35px;
+}
